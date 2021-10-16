@@ -55,12 +55,12 @@ if ($success === true) {
     if ($run) {
         echo ("<script LANGUAGE='JavaScript'>
                 window.alert('Donation Successful');
-                window.location.href='http://localhost/OneDotNGO/index.html';
+                window.location.href='thankyou.php';
                 </script>");
     } else {
         echo ("<script LANGUAGE='JavaScript'>
                 window.alert('Unknown Error');
-                window.location.href='http://localhost/OneDotNGO/form.html';
+                window.location.href='form.html';
                 </script>");
     }
 } else {
